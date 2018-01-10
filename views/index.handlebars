@@ -22,11 +22,15 @@
       <div class="col s6">
         {{#each burgers}}
           {{#if this.devoured}}
-            <div class='burgerEaten'>
+            {{!-- <div class='burgerEaten'> --}}
               <div>
-                {{this.burger_name}}
+                {{!-- {{this.burger_name}} --}}
+                <form action="api/burgers/{{this.id}}?_method=PUT" method="POST">
+                  <input type="hidden" name="devoured" value="false">
+                  <button class="burgerEaten" type="submit">{{this.burger_name}}</button>
+                </form>
               </div>
-            </div>
+            {{!-- </div> --}}
           {{/if}}
         {{/each}}
       </div>
