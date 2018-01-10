@@ -1,0 +1,82 @@
+html {
+    /* background-color: #cc6600; */
+    background: url(../img/sesame.jpg);
+    padding-left: 20%;
+}
+
+body {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: white;
+}
+
+#Big_burger {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: optima;
+    font-size: 65px;
+    margin: 50px;
+}
+
+.burgerAvailable {
+    font-family: optima;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #eb872a;
+    border: none;
+}
+
+.burgerAvailable:hover {
+    background-color: #eb872a;
+}
+
+.burgerEaten {
+    font-family: optima;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #2aceeb;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'optima';
+    font-size: 40px;
+    margin: 50px;
+}
+
+.formContainer {
+    background-color: #76D7C4;
+}
+
+.addBurgerButton {
+    font-family: optima;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: #76D7C4;
+    border: none;
+}
+
+.addBurgerButton:active {
+    background-color: #eb872a;
+}
